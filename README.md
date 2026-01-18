@@ -66,7 +66,7 @@ Cross Compile Example
 
 <cross-compiler>-gcc imu_menu.c -o imu_menu -lpthread  
 
-Deploy to Target
+Deploy to Target (Example for IMU Applications)
 ----------------
 
 scp imu_menu root@<target-ip>:/home/root/  
@@ -77,6 +77,8 @@ Run on Target
 
 ./imu_menu  
 ./imu_continuous  
+
+The same method can be used to deploy HTU21D applications.
 
 Yocto Integration (Optional)
 ----------------------------
